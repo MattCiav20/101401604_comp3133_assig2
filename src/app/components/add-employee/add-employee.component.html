@@ -1,0 +1,7 @@
+<h2>Add Employee</h2>
+<input type="text" placeholder="First Name" [(ngModel)]="employee.first_name">
+<input type="text" placeholder="Last Name" [(ngModel)]="employee.last_name">
+<input type="email" placeholder="Email" [(ngModel)]="employee.email">
+<input type="text" placeholder="Designation" [(ngModel)]="employee.designation">
+<input type="number" placeholder="Salary" [(ngModel)]="employee.salary">
+<button (click)="addEmployee()">Add Employee</button>

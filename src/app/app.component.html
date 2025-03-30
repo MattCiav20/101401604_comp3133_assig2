@@ -1,0 +1,4 @@
+<nav>
+  <button *ngIf="localStorage.getItem('token')" (click)="logout()">Logout</button>
+</nav>
+<router-outlet></router-outlet>
